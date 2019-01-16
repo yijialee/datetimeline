@@ -1,0 +1,91 @@
+.timeline {
+  position: absolute;
+  height: 100px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #fff;
+  border: #aaa solid 1px;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  left: 0px;
+  right: 0px;
+}
+
+.head {
+  height: 28px;
+  background-color: #096dd9;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  * {
+    color: white;
+    background: transparent;
+    border: 0px;
+  }
+}
+
+.iconbtn {
+  margin-left: 15px;
+  cursor: pointer;
+  :hover {
+    color: red;
+  }
+}
+
+.days {
+  position: relative;
+  text-align: center;
+}
+
+.days1 {
+  position: relative;
+  text-align: center;
+  margin-top: 13px;
+  .day1:first-child {
+    border-left: 1px solid;
+    border-color: rgba(110, 110, 110, 0.4);
+  }
+  .day1:last-child {
+    width: 0px;
+    border: 0px;
+  }
+}
+
+.day1 {
+  display: inline-block;
+  width: 30px;
+  height: 10px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-color: rgba(110, 110, 110, 0.4);
+}
+
+.float {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  background-color: blue;
+  left: -8px;
+  top: 2px;
+  ::before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    border: #096dd9 solid 1px;
+  }
+}
+
+.day {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  left: 0px;
+  position: relative;
+  :hover {
+    color: red;
+  }
+}
